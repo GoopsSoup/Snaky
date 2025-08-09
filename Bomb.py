@@ -7,7 +7,7 @@ for second in range (stop,0,-1):
     print(f"Bomb will detonate in {second} seconds...")
     time.sleep(1)
 
-    guess = input("Enter the password to disable the explosive: ")
+    guess = input("Asemblekete ")
     if guess == password:
         print("Bomb has been disabled")
         break
